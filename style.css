@@ -1,0 +1,90 @@
+.baner{
+    background-image: url(https://i.ibb.co/17TYm6G/hero.jpg);
+    height: 900px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.con h2{
+    text-align: center;
+    padding: 100px 0px 0px;
+    font-family: 'Roboto Slab', serif;
+
+    font-weight: 400;
+}
+
+.baner .login {
+	height: 550px;
+	width: 450px;
+	background: #fdeee7;
+	border-radius: 5px;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 33%;
+}
+
+form{
+    margin-left: 25px;
+    padding-top: 40px;
+    display: inline-block;
+    color: #66afe9;
+
+}
+
+form input {
+    display: block;
+    width: 400px;
+    height: 50px;
+    padding: 3px 10px;
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px solid #e0d1cb;
+    border-radius: 2px;
+    outline: none;
+    transition: .3s;
+    font-family: 'Roboto Slab', serif;
+}
+form input:focus {
+    border: 1px solid #66afe9;
+    box-shadow: 0px 0px 5px 0px  #66afe9;
+}
+
+form select{
+    width: 400px;
+    height: 50px;
+    padding: 0px 10px;
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px solid #e0d1cb;
+    border-radius: 2px;
+    outline: none;
+    transition: .3s;
+    font-family: 'Roboto Slab', serif;
+}
+
+form select:focus {
+    border: 1px solid #66afe9;
+    box-shadow: 0px 0px 5px 0px  #66afe9;
+}
+
+form a{
+    display: inline-block;
+    color: #fdeee7;
+    background: #e13d57;
+    text-decoration: none;
+    padding: 10px 68px;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 15px;
+    border: 1px solid #e13d57;
+    font-weight: 500;
+    transition: .5s;
+    border-radius: 3px;
+}
+
+form a:hover{
+    background: white;
+    color: #2e2927;
+}
+
